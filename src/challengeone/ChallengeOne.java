@@ -21,7 +21,7 @@ public class ChallengeOne {
     
      /**
      * Se encarga de capturar los datos por teclado para crear
-     * una lista numeros
+     * una lista de numeros
      */
     public static void inputData() {
         Scanner sc = new Scanner(System.in);
@@ -64,7 +64,7 @@ public class ChallengeOne {
     }
 
     /**
-     * Elimina los dígitos mayores a 8 de cada número en la lista de entrada y
+     * Este metodo elimina los dígitos mayores a 8 de cada número en la lista de entrada y
      * devuelve una nueva lista con los números resultantes en orden inverso.
      * @param numbers lista de enteros
      */
